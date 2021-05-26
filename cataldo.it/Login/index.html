@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login JSP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form class="signup-form" action="/Login/success.jsp" method="post">
+        <div class="form-header">
+            <h1>Login JSP</h1>
+        </div>
+        <div class="titolo">
+            <h2>Benvenuto</h2>
+        </div>
+        <div class="form-body">
+            <div class="horizontal-group">
+                <div class="form-group left">
+                    <label for="username" class="label-title">Username</label>
+                    <input type="text" name="username" class="form-input" placeholder="Inserire l'username" required="required" />
+                </div>
+                <div class="form-group right">
+                    <label for="password" class="label-title">Password</label>
+                    <input type="password" name="password" class="form-input" placeholder="Inserire la password" required="required" />
+                </div>
+            </div>
+        </div>
+        <div class="form-footer">
+            <span>* required</span>
+            <button type="submit" class="btn">Login</button>
+        </div>
+    </form>
+</body>
+
+</html>
